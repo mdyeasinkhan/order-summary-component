@@ -1,0 +1,112 @@
+body{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #E0E7FF;
+    font-family: 'Red Hat Display', sans-serif;
+    align-items: center;
+
+}
+img{
+    width: 100%;
+}
+.main{
+    display: block;
+}
+.card{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px hsl(245deg 75% 52% / 15%);
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+
+}
+.card .card-text{
+    color: black;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+    padding: 2px 50px;
+}
+
+.pricing{
+    background-color: #F5F7FF;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 1.25em;
+    margin: 1.5em 0;
+    padding: 1em;
+}
+.btn{
+    background-color: #3829E0;
+    border-radius: 10px;
+    box-shadow: 0 20px 20px hsl(245deg 75% 52% / 20%);
+    color: white;
+    display: block;
+    font-weight: 900;
+    padding: 1em;
+    text-decoration: none;
+    width: 100%;
+}
+.pricing {
+    margin: 24px;
+}
+.pricing-details h2{
+        font-size: 1rem;
+        font-weight:800;
+        margin-top: 20px;
+        margin-bottom: -2px;
+    
+}
+ a.price-link{
+    color: #0161f1;
+    font-weight: bold;
+    margin-left: 120px;
+}
+.inside-footer{
+    margin: 0 1.5rem;
+}
+
+.inside-footer .cancel-link{
+    color: hsl(224, 23%, 55%);
+    display: inline-block;
+    font-weight: 900;
+    margin-bottom: 2em;
+    text-decoration: none;
+}
+.attribution {
+    font-size: 13px;
+    margin-top 2rem: ;
+    margin: 0;
+    text-align: center;
+    margin-top: 1rem;
+}
+@media (min-width: 475px) {
+    body{
+        background-image: url(img/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+    }
+    .card{
+        width: 450px;
+    }
+    .card-content .card-footer{
+        padding: 0 3em;
+    }
+    h1{
+        font-size: 1.75rem;
+        font-weight: 900;
+        margin: 2rem 0 1rem;
+    }
+    .pricing{
+        margin-bottom: 2rem;
+    }
+
+   .btn{
+       margin-bottom: 2em;
+   }
+
+   
+}
